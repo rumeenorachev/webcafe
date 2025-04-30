@@ -1,0 +1,72 @@
+{% extends 'core/base.html' %}
+
+{%load static %}
+
+{% block title %}Servicios{% endblock %}
+
+{% block content %}
+
+    <section class="page-section">
+      <div class="container">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex mr-auto rounded">
+              <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">La mezcla perfecta</span>
+                <span class="section-heading-lower">Cafés y tés</span>
+              </h2>
+            </div>
+          </div>
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-01.jpg'%}" alt="">
+          <div class="product-item-description d-flex ml-auto">
+            <div class="bg-faded p-5 rounded">
+              <p class="mb-0">Cada café que servimos ha sido cuidadosamente tostado, molido y preparado con el respeto que merece. Y si lo tuyo es el té, te ofrecemos una carta selecta que combina aromas del mundo con la elegancia de lo artesanal. Aquí, cada bebida es un ritual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex mr-auto rounded">
+              <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">El mejor acompañamiento</span>
+                <span class="section-heading-lower">Bollería artesanal</span>
+              </h2>
+            </div>
+          </div>
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-02.jpg'%}" alt="">
+          <div class="product-item-description d-flex ml-auto">
+            <div class="bg-faded p-5 rounded">
+              <p class="mb-0">Nuestra bollería no viene de fábricas, sino de manos que amasan con cariño. Crujientes por fuera, suaves por dentro, nuestros croissants, biscotti y pasteles están horneados cada mañana para acompañar tu café como se merece.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex mr-auto rounded">
+              <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">Producto certificado</span>
+                <span class="section-heading-lower">También vendemos</span>
+              </h2>
+            </div>
+          </div>
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-03.jpg'%}" alt="">
+          <div class="product-item-description d-flex ml-auto">
+            <div class="bg-faded p-5 rounded">
+              <p class="mb-0">¿Te enamoraste de nuestro café? Llévatelo a casa. Vendemos nuestras mezclas exclusivas, tés selectos y productos gourmet certificados para que puedas revivir la experiencia La Caffettiera cuando quieras.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}

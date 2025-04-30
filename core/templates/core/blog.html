@@ -1,0 +1,37 @@
+
+{% extends 'core/base.html' %}
+
+{%load static %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">01/05/2025</span>
+                <span class="section-heading-lower">Ofertas de Primavera</span>
+              </h2>
+              <p class="mb-0">
+                <img class="mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-01.jpg'%}" alt="">
+              </p>
+              <p class="mb-0 mbt">
+                Esta primavera, déjate envolver por nuestra edición limitada de cafés especiados y tés aromáticos. Canela, nuez moscada, clavo… y ese toque que solo La Caffettiera de Rumen puede ofrecer.
+                Además, ¡disfruta de un 15% de descuento en bollería artesanal durante todo noviembre!
+                ¡Te esperamos con novedades que saben a hogar!
+              </p>
+              <p class="mb-0 mbt">
+                <span class="section-heading-under">Publicado por <em><b>Rumen Orachev</b></em> en <em><a href="https://www.linkedin.com/in/rumenorachev" target="_blank" rel="noopener noreferrer" class="link">LinkedIn</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
