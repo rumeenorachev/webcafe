@@ -2,7 +2,7 @@ services:
   - type: web
     name: webcafe
     env: python
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "./build.sh"
     startCommand: "gunicorn webcafe.wsgi:application"
     envVars:
       - key: DJANGO_SETTINGS_MODULE
