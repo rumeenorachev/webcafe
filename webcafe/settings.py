@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'insecure-default')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('RENDER') != 'true'
 
-ALLOWED_HOSTS = ['https://webcafe-foio.onrender.com/']
+ALLOWED_HOSTS = ['webcafe-foio.onrender.com/']
 
 
 # Application definition
